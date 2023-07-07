@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'myFirstFont';
+    src: url("../font\SinkinSans-300Light.otf") format("opentype");
+}
+
+    @font-face {
+    font-family: 'SDFont';
+    src: url("../font\PTC55F.ttf") format("truetype");
+}
+    article{
+        border-bottom: 1px solid black;
+    }
+    .n1{
+        color: red;
+        font-family: 'myFirstFont',Arial, Helvetica, sans-serif;
+    }
+    .n2{
+        color: blue;
+        font-family: 'SDFont',Arial, Helvetica, sans-serif;
+    }
